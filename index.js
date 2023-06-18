@@ -116,5 +116,5 @@ app.delete('/api/points/:id', (req, res) => {
 
 })
 
-const port = process.env.port || 80;
+const port = process.env.port || 3000;
 app.listen(port, () => console.log(`Listen in port ${port}`))
