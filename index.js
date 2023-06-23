@@ -1,14 +1,15 @@
 const express = require ('express');
-const app = express()
 
-app.use(express.json())
+const app = express()
+// app.use(bodyParse.urlencoded({extended:true}))
+// app.use(bodyParse.json())
 
 const pointsInMap =[
     {
         id: 1,
         name: 'Millor que nou',
         web:'http://www.millorquenou.cat/',
-        description:'Talleres de repacion, tienda de intecambio de segunda mano',
+        description:'Talleres de reparacion, tienda de intecambio de segunda mano',
         adress:'Carrer Sepúlveda 47',
         cat: ['electrodomesticos','bicicletas', 'otros']
     },
@@ -93,6 +94,12 @@ app.get('/api/points/:id', (req, res) => {
     res.send(place)
 });
 
+app.get('/api/point/:name', (req, res) => {
+    const place = pointsInMap.find( point => point.name === req.params.name);
+    if(!place) return res.status(404).send('Espacio no encontrado');
+    res.send(place)
+});
+
 app.post('/api/points', (req, res) => {
     const place = {
         id: pointsInMap.length +1,
@@ -116,5 +123,5 @@ app.delete('/api/points/:id', (req, res) => {
 
 })
 
-const port = process.env.port || 3000;
+const port = process.env.port || 4200;
 app.listen(port, () => console.log(`Listen in port ${port}`))
