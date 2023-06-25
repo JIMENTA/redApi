@@ -11,7 +11,7 @@ const pointsInMap =[
         web:'http://www.millorquenou.cat/',
         description:'Talleres de reparacion, tienda de intecambio de segunda mano',
         adress:'Carrer Sepúlveda 47',
-        lngLat: [ 41.3767488, 2.1514189],
+        lngLat: [2.154582334974559, 41.37749846831138 ],
         cat: ['electrodomesticos','bicicletas', 'otros']
     },
     {
@@ -20,7 +20,7 @@ const pointsInMap =[
         web:'https://www.pieldemariposa.es/nueva-tienda-solidaria-piel-de-mariposa-en-barcelona/',
         description:'Conscientes del desconsuelo, incertidumbre y desolación propios de estos primeros momentos, DEBRA Piel de Mariposa existe como única organización de apoyo, para mejorar el día a día de las familias a lo largo de todas las etapas de su vida.',
         adress:'Carrer del Torrent de l Olla 100',
-        lngLat: [ 44.3767488, 2.1514189],
+        lngLat: [  2.158469524602895, 41.40154006700783],
 
         cat:'ropa'
     },
@@ -30,7 +30,7 @@ const pointsInMap =[
         web:'',
         description:'Tienda que compra, vende y recupera artículos de segunda mano en efectivo y depósito.',
         adress:'Compte Urgell 81',
-        lngLat: [ 41.3767488, 5.1514189],
+        lngLat: [2.1565591484715374, 41.383365755350056],
         cat:'ropa'
     },
     {
@@ -39,6 +39,7 @@ const pointsInMap =[
         web:'https://rapid-noemi-reparacio-de-calcat.negocio.site/',
         description:'Reparació de calçats, cosits, material de sabateria i claus.',
         adress:'Carrer Calàbria 75',
+        lngLat: [2.1565228092616784, 41.37843888228303 ],
         cat:'calzados'
     },
     {
@@ -46,7 +47,8 @@ const pointsInMap =[
         name: 'Biciclot',
         web:'https://www.biciclot.coop/',
         description:'Somos cooperativa de trabajo , un modelo de economía social centrado en las personas, democrático con vocación de servicio, compromiso social y medioambiental. Promovemos la bicicleta como medio de transporte ecológico, económico, saludable y por una movilidad sostenible .',
-        adress:'Carrer Pere IV 58-60.',
+        adress:'Carrer Pere IV 58-60',
+        lngLat: [2.192392780427652, 41.395838789827266],
         cat: 'bicicleta'
     },
     {
@@ -55,6 +57,7 @@ const pointsInMap =[
         web:'https://www.instagram.com/afatrac/',
         description:'Botiga de roba de segona mà, amb una mirada terapèutica i integradora',
         adress:'Carrer Rosselló 459',
+        lngLat: [2.174880407994183,41.40675110072827],
         cat:'ropa'
     },
     {
@@ -63,6 +66,7 @@ const pointsInMap =[
         web:'',
         description:'Tienda de ropa de segunda mano de intermón oxfam',
         adress:'Calle de Viladomat 43',
+        lngLat: [2.16046095343654, 41.37712833518035],
         cat:'ropa'
     },
     {
@@ -71,6 +75,7 @@ const pointsInMap =[
         web:'',
         description:'Taller de reparación, restauración y alquiler de bicicletas',
         adress:'Calle de Vilamarí 80',
+        lngLat: [2.149422211106629, 41.379333332665645],
         cat:'bicicleta'
     },
     {
@@ -78,7 +83,8 @@ const pointsInMap =[
         name: 'Botiga Amiga ',
         web:'https://botigaamiga.org/es/',
         description:'Botiga Amiga és una iniciativa social impulsada per Formació i Treball, entitat promoguda per Càritas Diocesana',
-        adress:' Carrer Sibelius, 9',
+        adress:'Carrer Sibelius 9',
+        lngLat: [2.1853974822733773, 41.41055648785793],
         cat:'ropa'
     },
     
