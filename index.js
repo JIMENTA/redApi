@@ -11,6 +11,7 @@ const pointsInMap =[
         web:'http://www.millorquenou.cat/',
         description:'Talleres de reparacion, tienda de intecambio de segunda mano',
         adress:'Carrer Sepúlveda 47',
+        lngLat: [ 41.3767488, 2.1514189],
         cat: ['electrodomesticos','bicicletas', 'otros']
     },
     {
@@ -19,6 +20,8 @@ const pointsInMap =[
         web:'https://www.pieldemariposa.es/nueva-tienda-solidaria-piel-de-mariposa-en-barcelona/',
         description:'Conscientes del desconsuelo, incertidumbre y desolación propios de estos primeros momentos, DEBRA Piel de Mariposa existe como única organización de apoyo, para mejorar el día a día de las familias a lo largo de todas las etapas de su vida.',
         adress:'Carrer del Torrent de l Olla 100',
+        lngLat: [ 44.3767488, 2.1514189],
+
         cat:'ropa'
     },
     {
@@ -27,6 +30,7 @@ const pointsInMap =[
         web:'',
         description:'Tienda que compra, vende y recupera artículos de segunda mano en efectivo y depósito.',
         adress:'Compte Urgell 81',
+        lngLat: [ 41.3767488, 5.1514189],
         cat:'ropa'
     },
     {
